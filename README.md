@@ -1,45 +1,58 @@
-# How to Filter and Group Angular MultiSelect Dropdown Items 
+# How to Filter and Group Angular MultiSelect Dropdown Items
 
-A quick start Angular project that shows how to group the Angular MultiSelect Dropdown items. This project also includes a code snippet to use different filter types in the MultiSelect Dropdown, and how to include diacritic characters in filtering.
+## Repository Description
+A quick start Angular project demonstrating how to group MultiSelect Dropdown items and implement filter types with diacritic character support.
 
-Examples: 
+## Overview
+This repository provides a guide for filtering and grouping the Angular MultiSelect Dropdown component with practical examples for organizing items into groups and applying various filtering strategies.
 
-https://ej2.syncfusion.com/angular/demos/#/bootstrap5/multi-select/grouping
+## Features
+- Group MultiSelect Dropdown items for better organization
+- Multiple filter type implementations
+- Diacritic character support in filtering
+- Quick start project setup
+- Working code examples and patterns
 
-https://ej2.syncfusion.com/angular/demos/#/bootstrap5/multi-select/filtering 
+## Prerequisites
+Ensure you have the following installed:
 
-Documentation: 
+- Angular 4 or higher
+- TypeScript 2.6 or higher
+- Node.js and npm
 
-https://ej2.syncfusion.com/angular/documentation/multi-select/grouping/
+## Installation
 
-https://ej2.syncfusion.com/angular/documentation/multi-select/filtering/ 
+Clone the repository and install dependencies:
 
-# Project pre-requisites
-
-Make sure that you have the compatible versions of TypeScript and Angular in your machine before starting to work on this project.
-
-Angular 4+
-
-TypeScript 2.6+
-
-# How to run this application?
-
-To run this application, you need to first clone the how-to-filter-and-group-multiselect-dropdown-items repository and then navigate to its appropriate path where it has been in your system.
-
-To do so, open the command prompt and run the below commands one after the other.
-
+```
 git clone angular-example
-
 cd angular-example
-
-# Installing
-
-Once done with downloading, next you need to install the necessary packages required to run this application locally. The npm install command will install all the needed angular packages into your current project and to do so, run the below command.
-
 npm install
+```
 
-# Running on development server
+## Running the Application
 
-Run ng serve command for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Execute the following command to start the development server:
 
+```
+ng serve
+```
 
+The application will be available at `http://localhost:4200/`. Source file changes automatically reload in your browser.
+
+## Examples
+
+Explore these resources to understand the implementation:
+
+- Grouping: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/multi-select/grouping
+- Filtering: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/multi-select/filtering
+
+## Documentation
+
+For detailed information:
+
+- Grouping: https://ej2.syncfusion.com/angular/documentation/multi-select/grouping/
+- Filtering: https://ej2.syncfusion.com/angular/documentation/multi-select/filtering/
+
+## License
+This project is provided as-is for educational purposes.
